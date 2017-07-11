@@ -241,8 +241,8 @@ xgb_params = {
     'num_round': 1250
 }
 
-feature_config = {'magic':True, 'ID':True, 'n_comp':12, 'tSVD':True, 'PCA':True,
-                  'ICA':True, 'GRP':True, 'SRP':True, 'SparseThreshold':0.0}
+feature_config = {'magic':True, 'ID':True, 'n_comp':12, 'tSVD':False, 'PCA':False,
+                  'ICA':False, 'GRP':False, 'SRP':False, 'SparseThreshold':0.0}
 print(xgb_params)
 print(feature_config)     
 
