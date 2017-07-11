@@ -31,7 +31,7 @@ pd.options.display.max_rows = 500
 train = pd.read_csv('data/train.csv')
 test = pd.read_csv('data/test.csv')
 
-use_leaks = False
+use_leaks = True
 
 # Augment the training set
 leaks = {
