@@ -14,6 +14,10 @@ Created on Sat Jul  8 15:14:31 2017
 @author: bradley
 """
 
+# Note: I cobbled these files together from a combination of others' example kernels
+# as well as some of my own code. Unfortunately I don't recall from whose examples
+# borrowed.
+
 import numpy as np
 import pandas as pd
 import xgboost as xgb
